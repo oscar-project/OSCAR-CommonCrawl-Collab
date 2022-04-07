@@ -9,4 +9,6 @@ Commit versions:
 
 | Format | Platform | Gen time (25) | Gen time (100) | Get content of clean docs |
 |--------|----------|--------------------------|----------------|---------------------------|
+| **jsonl**  | **laptop**   | **190,6±2.1s (3 samples)**   | ...            | ...           |
 | avro   | laptop   | 195,3±3.2s (3 samples)   | ...            | ...                       |
+
