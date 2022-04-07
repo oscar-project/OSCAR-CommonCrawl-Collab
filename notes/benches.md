@@ -7,8 +7,12 @@ Commit versions:
 - avro: [14fb3f7](https://github.com/oscar-corpus/ungoliant/commit/14fb3f7b6ef540b12f3278ff0aff7e0aa07278ce)
 - parquet: TODO
 
-| Format | Platform | Gen time (25) | Gen time (100) | Get content of clean docs |
-|--------|----------|--------------------------|----------------|---------------------------|
-| **jsonl**  | **laptop**   | **190,6±2.1s (3 samples)**   | ...            | ...           |
-| avro   | laptop   | 195,3±3.2s (3 samples)   | ...            | ...                       |
 
+| Format        | Platform   | Num. shards | Input size | Gen time                   | Output size | Get content length of clean docs |
+|---------------|------------|-------------|------------|----------------------------|-------------|----------------------------------|
+| **jsonl**     | **laptop** | 25          | 3.1G       | **190,6±2.1s (3 samples)** | **3.6G**    | **975ms**                        |
+| avro (snappy) | laptop     | 25          | 3.1G       | 195,3±3.2s (3 samples)     | 1.8G        | 1.9s                             |
+| jsonl         | HPC        | 100         | TODO       | TODO                       | TODO        | TODO                             |
+| avro (snappy) | HPC        | 100         | TODO       | TODO                       | TODO        | TODO                             |
+| parquet       | laptop     | 25          | 3.1G       | TODO                       | TODO        | TODO                             |
+| parquet       | HPC        | 100         | TODO       | TODO                       | TODO        | TODO                             |
