@@ -27,10 +27,13 @@ A short, informal comparison of different file formats put in context of OSCAR a
 - Rust lib: apache/avro, 2.1k stars, active
 
 ## Parquet
+- see [parquet.md](./parquet.md) for further details
 - Apache project (https://parquet.apache.org/)
 - Column oriented
 - Binary, compression built-in
 - Not append/modification friendly
+  - extracting and removing columns is cheap
+  - adding columns at the price of copying the remaining data
 - Built to last? cf. [this](https://stackoverflow.com/questions/56472727/difference-between-apache-parquet-and-arrow/56481636#56481636) stackoverflow response
 - Interop. with arrow, a parquet-like format geared towards in memory storage.
 - Rust lib: apache/arrow-rs, 800 stars, active, incomplete (missing row writer, async write)
