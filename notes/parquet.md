@@ -9,7 +9,7 @@
   - recommendations: use zstd, column sorting, remove large unused columns
 
 ## Compression
-- see also compression benchmarks
+- compression benchmarks
   - https://peazip.github.io/fast-compression-benchmark-brotli-zstandard.html
   - https://quixdb.github.io/squash-benchmark/
 
@@ -29,3 +29,7 @@
   - https://colab.research.google.com/github/archivesunleashed/notebooks/blob/colab-tweak/Parquet%20Examples/parquet_text_analyis.ipynb
 - https://arxiv.org/pdf/2003.14046.pdf
 - https://digital.library.unt.edu/ark:/67531/metadc1608961/m1/1/
+
+## See also
+
+- [Parquet – a column-oriented file format](../slides/columnar-storage-parquet.pdf) (slides 2022-04-22)
