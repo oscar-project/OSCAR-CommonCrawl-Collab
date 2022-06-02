@@ -17,6 +17,8 @@
 - [Presto](https://prestodb.io/) / [Athena](https://aws.amazon.com/athena/)
 - [Spark](https://spark.apache.org/)
 - [Duckdb](https://duckdb.org/2021/06/25/querying-parquet.html)
+- [PostgreSQL Parquet file wrapper](https://github.com/adjust/parquet_fdw/)
+- [SQLite Parquet virtual table](https://github.com/cldellow/sqlite-parquet-vtable/), see also [query Parquet files in SQLite](https://cldellow.com/2018/06/22/sqlite-parquet-vtable.html)
 
 ## Text corpora in Parquet and columnar formats
 - https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/6261/file/McClure_etal_Organizing_corpora_2017.pdf
@@ -29,6 +31,10 @@
   - https://colab.research.google.com/github/archivesunleashed/notebooks/blob/colab-tweak/Parquet%20Examples/parquet_text_analyis.ipynb
 - https://arxiv.org/pdf/2003.14046.pdf
 - https://digital.library.unt.edu/ark:/67531/metadc1608961/m1/1/
+
+## Various data format specifications based on Parquet
+
+- [GeoParquet](https://github.com/opengeospatial/geoparquet)
 
 ## See also
 
