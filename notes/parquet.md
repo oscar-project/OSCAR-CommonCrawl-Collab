@@ -13,6 +13,10 @@
   - https://peazip.github.io/fast-compression-benchmark-brotli-zstandard.html
   - https://quixdb.github.io/squash-benchmark/
 
+## Dremel, repetition and definition levels
+
+- [https://blog.twitter.com/engineering/en_us/a/2013/dremel-made-simple-with-parquet](Dremel made simple with Parquet (2013))
+- [https://akshays-blog.medium.com/wrapping-head-around-repetition-and-definition-levels-in-dremel-powering-bigquery-c1a33c9695da](Wrapping one’s head around Repetition and Definition Levels in Dremel, powering BigQuery (2019))
 ## Querying
 - [Presto](https://prestodb.io/) / [Athena](https://aws.amazon.com/athena/)
 - [Spark](https://spark.apache.org/)
