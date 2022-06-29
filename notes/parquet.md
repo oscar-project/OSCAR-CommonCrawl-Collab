@@ -17,6 +17,7 @@
 
 - [https://blog.twitter.com/engineering/en_us/a/2013/dremel-made-simple-with-parquet](Dremel made simple with Parquet (2013))
 - [https://akshays-blog.medium.com/wrapping-head-around-repetition-and-definition-levels-in-dremel-powering-bigquery-c1a33c9695da](Wrapping one’s head around Repetition and Definition Levels in Dremel, powering BigQuery (2019))
+
 ## Querying
 - [Presto](https://prestodb.io/) / [Athena](https://aws.amazon.com/athena/)
 - [Spark](https://spark.apache.org/)
@@ -35,6 +36,7 @@
   - https://colab.research.google.com/github/archivesunleashed/notebooks/blob/colab-tweak/Parquet%20Examples/parquet_text_analyis.ipynb
 - https://arxiv.org/pdf/2003.14046.pdf
 - https://digital.library.unt.edu/ark:/67531/metadc1608961/m1/1/
+- [WARC to Parquet converter, Rust using Arrow](https://github.com/maxcountryman/warc-parquet/)
 
 ## Various data format specifications based on Parquet
 

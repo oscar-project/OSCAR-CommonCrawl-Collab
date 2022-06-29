@@ -18,3 +18,5 @@
     https://github.com/mozilla/readability/tree/master/test/test-pages
   - https://github.com/tomazk/Text-Extraction-Evaluation
   - https://web.archive.org/web/20201126063916/https://www.diffbot.com/benefits/comparison/
+  - https://sigwac.org.uk/cleaneval/
+    - cf. https://github.com/dalab/web2text
